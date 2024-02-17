@@ -1,0 +1,39 @@
+body {
+    background: rgb(223, 179, 171);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+div {
+    background: palegoldenrod;
+    padding: 16px 32px;
+    margin: 20px;
+    border: 8px solid orchid;
+}
+
+p {
+    background: papayawhip;
+    color: lightseagreen;
+}
+
+p + p {
+    background-color: blueviolet;
+}
+
+div.hermano > span {
+    color: aquamarine;
+}
+
+main {
+    width:  600px;
+}
+
+div {
+    padding: 20px;
+    border: 1px solid tomato;
+}
+
+.column {
+    display: inline-block;
+    width: calc(33.3333% - 40px - 2px);
+}
